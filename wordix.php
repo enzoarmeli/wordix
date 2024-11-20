@@ -153,7 +153,9 @@ function esPalabra($cadena)
 }
 
 /**
- *  ****COMPLETAR*****
+ *Se le solicitara al usuario que ingrese una palabra de 5 letras, si no es de 5 letras se le mostrara otro mensaje diciendo que debe ingresar una palabra de 5 letras
+ *retornara la palabra que haya ingresado el usuario
+ *@return string
  */
 function leerPalabra5Letras()
 {

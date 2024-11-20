@@ -137,7 +137,7 @@ function escribirMensajeBienvenida($usuario)
 
 
 /**
- * ****COMPLETAR*****
+ *Verifica si un arreglo recibido como parametro tenga unicamente letras y retornara si todos son letras
  */
 function esPalabra($cadena)
 {

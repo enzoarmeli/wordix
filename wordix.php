@@ -27,7 +27,11 @@ const ESTADO_LETRA_PERTENECE = "pertenece";
 /**************************************/
 
 /**
- *  ****COMPLETAR*****
+ *El modulo leera un numero y le mostrara al usuario que debe ingresar un numero entre un numero minimo y uno maximo
+ *retornando el numero que el usuario haya ingresado
+ *@param int $min
+ *@param int $max
+ *@return int
  */
 function solicitarNumeroEntre($min, $max)
 {

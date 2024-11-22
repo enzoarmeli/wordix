@@ -351,7 +351,14 @@ function obtenerPuntajeWordix()  /* ****COMPLETAR***** parámetros formales nece
  */
 function jugarWordix($palabraWordix, $nombreUsuario)
 {
-    /*Inicialización*/
+    //int $cantIntentosRealizados
+    //array $estrcuturaIntento
+    //boolean $IndiceIntento
+    $teclado = iniciarTeclado();
+    $estructuraIntento = [];
+    $indiceIntento = false;
+    $cantIntentosRealizados = 0;
+
     $arregloDeIntentosWordix = [];
     $teclado = iniciarTeclado();
     escribirMensajeBienvenida($nombreUsuario);

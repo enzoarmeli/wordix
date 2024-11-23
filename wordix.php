@@ -1,5 +1,5 @@
 <?php
-// Este es un comentario de prueba de enzo armeli usando xampp
+// Este es un comentario de prueba de enzo armeli usando xampp 
 /*
 La librería JugarWordix posee la definición de constantes y funciones necesarias
 para jugar al Wordix.
